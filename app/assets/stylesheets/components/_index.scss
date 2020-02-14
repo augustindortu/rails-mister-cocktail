@@ -37,6 +37,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
+  margin-bottom: 10px;
 }
 
 @media(max-width: 992px) {
@@ -51,6 +52,70 @@
   }
 }
 
+.card-cocktail-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  margin: 10px 0;
+
+  & a {
+    text-decoration: none;
+    color: #4A4A4A;
+  }
+}
+
+.card-cocktail-infos:hover {
+  border: 1px solid black;
+}
+
+.card-cocktail-infos a:hover {
+  color: black;
+}
+
+.card-cocktail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #card-image {
   max-width: 30vh;
+}
+
+li {
+  list-style-type: none;
+}
+
+.add-new-cocktail {
+  text-align: center;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+
+  & a {
+    text-decoration: none;
+    color: #4A4A4A;
+  }
+}
+
+.add-new-cocktail-infos:hover {
+  border: 1px solid black;
+}
+
+.add-new-cocktail a:hover {
+  color: black;
+}
+.container-page {
+  background-color: #E3E4DB;
 }
