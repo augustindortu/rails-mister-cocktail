@@ -57,7 +57,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid #4A4A4A;
+  border: 1px solid white;
   padding: 8px 24px;
   border-radius: 50px;
   font-weight: lighter;
@@ -67,16 +67,16 @@
 
   & a {
     text-decoration: none;
-    color: #4A4A4A;
+    color: white;
   }
 }
 
 .card-cocktail-infos:hover {
-  border: 1px solid black;
+  font-weight: bold;
 }
 
 .card-cocktail-infos a:hover {
-  color: black;
+  font-weight: bold;
 }
 
 .card-cocktail {
@@ -96,26 +96,29 @@ li {
 
 .add-new-cocktail {
   text-align: center;
-  border: 1px solid #4A4A4A;
+  border: 1px solid white;
   padding: 8px 24px;
   border-radius: 50px;
   font-weight: lighter;
   opacity: 0.6;
   transition: opacity 0.3s ease;
+  margin-top: 20px;
 
   & a {
     text-decoration: none;
-    color: #4A4A4A;
+    color: white;
   }
 }
 
 .add-new-cocktail-infos:hover {
   border: 1px solid black;
+  font-weight: bold;
 }
 
 .add-new-cocktail a:hover {
-  color: black;
+  color: white;
+  font-weight: bold;
 }
 .container-page {
-  background-color: #E3E4DB;
+  background-color: rgb(17, 17, 18);
 }
